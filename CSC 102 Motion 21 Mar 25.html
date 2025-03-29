@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Animation</title>
+  <link rel="stylesheet" href="CSC 102 Motion 21 Mar 25.css">
+</head>
+<!--Written By Joseph Hudson Jr-->
+<body>
+<!-- Setting up audio controls to allow the user to play audio -->
+<audio controls>
+  <!-- Source file for the audio content -->
+  <source src="Audio/the-shadow-knows-orson-welles.mp3"></source>
+</audio>
+
+
+<!-- Creating a container to hold the image that will be animated -->
+<div class="container">
+  <!-- Adding an image element with an ID for JavaScript manipulation and a specified source and description -->
+  <img id="animated-image" src="Images/Shadow eyes.jpg" alt="Random Image">
+</div>
+
+<!-- Creating a section for start/stop buttons to control the animation -->
+<div class="controls">
+  <!-- Button to start the animation; triggers the 'startAnimation' function -->
+  <button onclick="startAnimation()">Start</button>
+  <!-- Button to stop the animation; triggers the 'stopAnimation' function -->
+  <button onclick="stopAnimation()">Stop</button>
+</div>
+
+<!-- Placeholder to display the status of the animation (e.g., 'Playing' or 'Stopped') -->
+<div id="status">Status: Stopped</div>
+
+<!-- Linking an external JavaScript file to handle the animation logic -->
+<script src="CSC 102 Motion 21 Mar 25.js"></script>
+
+    <!-- Navigation section of the webpage -->
+    <nav>
+      <h2>Navigation</h2>
+      <a href = "CSC 102 Jump Off Page 26 Mar 25.html">Home</a>
+      <a href = "CSC 102 Index HTML 21Feb25.html">Index</a>
+      <a href = "CSC 102 Board HTML 21Feb25.html">Boards</a>
+      <a href = "CSC 102 Tables 26 Mar 25.html">Table</a>
+      <a href = "CSC 102 Palindrome 7Mar2025.html">Palindrome</a>
+      <a href = "RPSLS live.html">Game</a>
+      <a href = "CSC 102 Login HTML 3Mar25.html">User Input</a>
+      <a href = "CSC 102 Audio 20 Mar 25.html">Audio</a>
+  </nav>
+
+</body>
+
+<!-- Adding a footer section for copyright information -->
+<footer>
+  <h4> Copyright 2025 JHJ </h4>
+</footer>
+
+</html>

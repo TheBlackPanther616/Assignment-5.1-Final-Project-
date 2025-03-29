@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--Written by Joseph Hudson Jr-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This is to link the CSS-->
+    <link rel = "stylesheet" href = "CSC 102 Login CSS_JHJ 6Mar25 .css">
+    <!--This is the link to the javascript-->
+    <script src= "CSC 102 Login JAVA 5Mar25.js"></script>
+
+    <title>login</title>
+</head>
+<body>
+
+    <!-- Main heading of the page -->
+    <h1>Access to Fringe Division</h1>
+
+    <!-- A div element with a class "word" and an animation delay of 1 second -->
+    <div class="word" style="animation-delay: 1s;">Observers are Here</div>
+
+    <!-- A div element with an animation delay of 3 seconds, displaying the word "Psychokinesis" -->
+    <div class="word" style="animation-delay: 3s;">Psychokinesis</div>
+
+    <!-- A div element with an animation delay of 5 seconds, displaying the word "Teleportation" -->
+    <div class="word" style="animation-delay: 5s;">Teleportation</div>
+
+    <!-- A div element with an animation delay of 7 seconds, displaying the word "Nanotechnology" -->
+    <div class="word" style="animation-delay: 7s;">Nanotechnology</div>
+
+    <!-- A div element with an animation delay of 9 seconds, displaying the word "Artificial Intelligence" -->
+    <div class="word" style="animation-delay: 9s;">Artificial Intelligence</div>
+
+    <!-- A div element with an animation delay of 15 seconds, displaying the word "Cybernetics" -->
+    <div class="word" style="animation-delay: 15s;">Cybernetics</div>
+
+    <!-- A div element with an animation delay of 18 seconds, displaying the word "Suspended Animation" -->
+    <div class="word" style="animation-delay: 18s;">Suspended Animation</div>
+
+    <!-- Login form with an ID "login" -->
+    <form id="login" onsubmit="return false">
+        <!-- Input field for first name -->
+        First Name: <input type="text" id="fName"/>
+        <br>
+        <br>
+
+        <!-- Input field for last name -->
+        Last Name: <input type="text" id="lName"/>
+        <br>
+        <br>
+
+        <!-- Input field for zip code -->
+        Zip Code: <input type="text" id="zipCode"/>
+        <br>
+        <br>
+
+        <!-- Input field for badge number -->
+        Badge Number: <input type="number" id="badgeID"/>
+        <br>
+        <br>
+
+        <!-- Input field for password -->
+        Password: <input type="password" id="PW"/>
+        <!-- Submit button that triggers the "checkCreds()" function -->
+        <input type="submit" onclick="checkCreds();"/>
+    </form>
+
+    <!-- Placeholder paragraph to display the login status -->
+    <p id="loginStatus">Status of Login</p>
+
+    <!-- Navigation section for links to other pages -->
+    <nav>
+        <!-- Subheading for navigation -->
+        <h2>Navigation</h2>
+
+        <!-- Links to various other pages -->
+        <a href="CSC 102 Jump Off Page 26 Mar 25.html">Home</a>
+        <a href="CSC 102 Index HTML 21Feb25.html">Index</a>
+        <a href="CSC 102 Board HTML 21Feb25.html">Boards</a>
+        <a href="CSC 102 Tables 26 Mar 25.html">Table</a>
+        <a href="CSC 102 Palindrome 7Mar2025.html">Palindrome</a>
+        <a href="RPSLS live.html">Game</a>
+        <a href="CSC 102 Motion 21 Mar 25.html">Motion</a>
+        <a href="CSC 102 Audio 20 Mar 25.html">Audio</a>
+    </nav>
+
+    <!-- Footer section with copyright information -->
+    <footer>
+        <h4>Copyright 2025 JHJ</h4>
+    </footer>
+</body>
+</html>

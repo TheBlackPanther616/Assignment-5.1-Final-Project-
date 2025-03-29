@@ -1,0 +1,59 @@
+body
+{
+    background-image: url(Images/BBT.jpg);
+    background-repeat: no-repeat; 
+    /* Prevents the background image from repeating itself */
+    
+    background-size: 100% 100%; 
+    /* Ensures the background image stretches to cover the entire screen area */
+    
+    min-height: 100vh; 
+    /* Sets the minimum height of the body to cover the full viewport height */
+    
+
+}
+p
+{
+    background-color: transparent;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(115, 2, 49);
+}
+button
+{
+    background-color: yellow;
+    border-color: crimson;
+    border-radius: 50px;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    cursor: crosshair;
+    color: red;
+}
+    /* Style for the navigation links */
+    a
+    {
+        display: inline-block; /* Ensures the links are treated as block elements within the row */
+        margin: 30px ; /* Adds horizontal and vertical spacing between links */
+        text-decoration: none; /* Removes the underline from links */
+        font-size: 18px; /* Adjusts the font size for better readability */
+        color:blue; /* Sets the link color */
+    }
+    h4
+    {
+        color: red;
+    }
+        /* Style for the navigation links */
+        h3
+        {
+            display: inline-block; /* Ensures the links are treated as block elements within the row */
+            margin: 30px ; /* Adds horizontal and vertical spacing between links */
+            text-decoration: none; /* Removes the underline from links */
+            font-size: 18px; /* Adjusts the font size for better readability */
+            color:black; /* Sets the link color */
+        }
+
+

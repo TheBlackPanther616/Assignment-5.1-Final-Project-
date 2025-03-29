@@ -1,0 +1,155 @@
+ /* General styling for the entire webpage */
+body 
+{
+    /* Set a radial gradient background transitioning from blue to goldenrod */
+    background-image: radial-gradient(blue, goldenrod);
+}
+
+/* Styling for the navigation bar */
+nav
+{
+    background-color:goldenrod ;
+    color: black;
+    border: 2px solid black;
+    border-top-left-radius: 1em 1em ;
+    border-top-right-radius: 1em 1em ;
+    border-bottom-left-radius: 1em 1em ;
+    border-bottom-right-radius: 1em 1em ;/* Style for the navigation menu */
+    text-align: center; /* Centers the content */
+    margin: 10px 0; /* Adds vertical spacing around the navigation */
+    
+    
+    /* Style for the navigation links */
+    a 
+    {
+        display: inline-block; /* Ensures the links are treated as block elements within the row */
+        margin: 30px ; /* Adds horizontal and vertical spacing between links */
+        text-decoration: none; /* Removes the underline from links */
+        font-size: 18px; /* Adjusts the font size for better readability */
+        color: blue; /* Sets the link color */
+    }
+    
+    /* Hover effect for the links */
+    nav a:hover 
+    {
+        color: #007BFF; /* Changes the color of the link when hovered */
+        text-decoration: underline; /* Adds underline on hover for emphasis */
+    }                   
+
+
+}
+
+/* Styling for paragraph text */
+p
+{
+    /* Set the background color of the paragraph to a light blue shade */
+    background-color: #86ace6;
+    /* Center the text within the paragraph */
+    text-align: center;
+    /* Set the font size to 50px */
+    font-size: 50px;
+    /* Use a monospace font */
+    font-family: monospace;
+    /* Italicize the text */
+    font-style: italic;
+    /* Make the text bold */
+    font-weight: bold;
+    /* Set the text color to a custom RGB value */
+    color: rgb(115, 2, 49);
+}
+
+/* Styling for the main headings */
+h1
+{
+    /* Add a wavy text decoration */
+    text-decoration: wavy;
+    /* Set the color of the text decoration to chartreuse */
+    text-decoration-color: chartreuse;
+    /* Apply emphasis styling with a filled color effect */
+    text-emphasis: filled color;
+}
+
+/* General styling for buttons */
+button
+{
+    /* Set the background color of the button to dark green */
+    background-color: darkgreen;
+    /* Set the border color to crimson */
+    border-color: crimson;
+    /* Round the corners of the button */
+    border-radius: 50px;
+    /* Use a solid border style */
+    border-style: solid;
+    /* Set the width of the button */
+    width: 100px;
+    /* Set the height of the button */
+    height: 100px;
+    /* Change the cursor to a crosshair when hovering over the button */
+    cursor: crosshair;
+}
+
+/* Styling for the "New York" button */
+#NewYork
+{
+    /* Set the background color to cornflower blue */
+    background-color: cornflowerblue;
+    /* Add padding around the button for spacing */
+    padding: 16px 32px;
+    /* Set the duration of transitions (e.g., hover effects) to 0.4 seconds */
+    transition-duration: .4s;
+    /* Set the text color to red */
+    color: red;
+}
+
+/* Styling for the "Asgard" button */
+#Asgard
+{
+    /* Set the background color to goldenrod */
+    background-color: goldenrod;
+    /* Add padding around the button for spacing */
+    padding: 16px 32px;
+    /* Set the duration of transitions (e.g., hover effects) to 0.4 seconds */
+    transition-duration: .4s;
+    /* Set the text color to brown */
+    color: brown;
+}
+
+/* Styling for the "Knowhere" button */
+#Knowhere
+{
+    /* Set the background color to yellow */
+    background-color: yellow;
+    /* Add padding around the button for spacing */
+    padding: 16px 32px;
+    /* Set the duration of transitions (e.g., hover effects) to 0.4 seconds */
+    transition-duration: .4s;
+    /* Set the text color to grey */
+    color: grey;
+}
+
+/* Styling for the "Talokan" button */
+#Talokan
+{
+    /* Set the background color to a custom RGB value (teal-like shade) */
+    background-color: rgb(13, 143, 100);
+    /* Add padding around the button for spacing */
+    padding: 16px 32px;
+    /* Set the duration of transitions (e.g., hover effects) to 0.4 seconds */
+    transition-duration: .4s;
+    /* Set the text color to aquamarine */
+    color: aquamarine;
+}
+
+/* Styling for the "Wakanda" button */
+#Wakanda
+{
+    /* Set the background color to a custom RGB value (dark purple shade) */
+    background-color: rgb(54, 3, 81);
+    /* Add padding around the button for spacing */
+    padding: 16px 32px;
+    /* Set the duration of transitions (e.g., hover effects) to 0.4 seconds */
+    transition-duration: .4s;
+    /* Set the text color to black */
+  
+}
+                            

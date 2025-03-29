@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSC 102 Audio 20 Mar 25.css">
+    <script src="CSC 102 Audio 20 Mar 25.js"></script>
+    <title>Audio</title>
+</head>
+    <!--Written By Joseph Hudson Jr-->
+<header><h1>Old School Hip Hop</h1></header>
+<body>
+    <!-- Adding a main heading for the audio section -->
+    <h1>Audio</h1>
+
+    <!-- Setting up simple audio controls for playback -->
+    <audio controls>
+        <!-- Specifying the source file for the audio -->
+        <source src="Audio/going_back_to_cali.mp3"></source>
+    </audio>
+
+    <!-- Navigation section of the webpage -->
+    <nav>
+        <h2>Navigation</h2>
+        <a href = "CSC 102 Jump Off Page 26 Mar 25.html">Home</a>
+        <a href = "CSC 102 Index HTML 21Feb25.html">Index</a>
+        <a href = "CSC 102 Board HTML 21Feb25.html">Boards</a>
+        <a href = "CSC 102 Tables 26 Mar 25.html">Table</a>
+        <a href = "CSC 102 Palindrome 7Mar2025.html">Palindrome</a>
+        <a href = "RPSLS live.html">Game</a>
+        <a href = "CSC 102 Login HTML 3Mar25.html">User Input</a>
+        <a href = "CSC 102 Motion 21 Mar 25.html">Motion</a>
+    </nav>
+
+    <!-- Creating a section for a second set of audio controls with a "cassette player" style -->
+    <div class="cassette-player">
+        <!-- Creating a visual representation of the cassette slot -->
+        <div class="cassette-slot">
+            <!-- Adding a label to display the "cassette" information -->
+            <span class="tape-label">Tape: [LL Cool J] going_back_to_cali</span>
+        </div>
+
+        <!-- Adding an audio element with an ID for script-based controls -->
+        <audio id="audio" src="Audio/going_back_to_cali.mp3"></audio>
+
+        <!-- Adding playback control buttons -->
+        <div class="controls">
+            <!-- Play button, linked to the 'playCassette' function -->
+            <button id="startAudio" onclick="playCassette()">Play</button>
+            <!-- Pause button, linked to the 'pauseCassette' function -->
+            <button id="pauseAudio" onclick="pauseCassette()">Pause</button>
+            <!-- Stop button, linked to the 'stopCassette' function -->
+            <button id="stopAudio" onclick="stopCassette()">Stop</button>
+        </div>
+
+        <!-- Placeholder for displaying the status of the cassette player -->
+        <div id="status">Status: Stopped</div>
+    </div>
+
+    <!-- Creating an equalizer visual effect -->
+    <div class="equalizer">
+        <!-- Adding individual bars to simulate the equalizer animation -->
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+</body>
+
+<!-- Adding a footer section with copyright information -->
+<footer>
+    <p> Copyright 2025 JHJ </p>
+</footer>
+</html>

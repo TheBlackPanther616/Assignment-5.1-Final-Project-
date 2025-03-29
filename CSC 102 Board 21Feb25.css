@@ -1,0 +1,64 @@
+/* Style settings for the body of the webpage */
+body
+ {
+    background-image: url(Images/BooYaaTRIBE.jpg); 
+    /* Sets a background image for the page */
+    
+    background-repeat: no-repeat; 
+    /* Prevents the background image from repeating itself */
+    
+    background-size: 100% 100%; 
+    /* Ensures the background image stretches to cover the entire screen area */
+    
+    min-height: 100vh; 
+    /* Sets the minimum height of the body to cover the full viewport height */
+
+        /* Use Flexbox for layout and align elements */
+        display: flex;
+        /* Arrange elements vertically in a column */
+        flex-direction: column;
+        /* Center elements horizontally */
+        justify-content: center;
+        /* Center elements vertically */
+        align-items: center;
+        /* Add a small gap between elements */
+        gap: 4px;
+}
+nav
+{
+    background-color:transparent;
+    color: blue;
+    text-align: center; /* Centers the content */
+    margin: 20px 0; /* Adds vertical spacing around the navigation */
+    
+    
+    /* Style for the navigation links */
+a
+    {
+        display: inline-block; /* Ensures the links are treated as block elements within the row */
+        margin: 30px ; /* Adds horizontal and vertical spacing between links */
+        text-decoration: none; /* Removes the underline from links */
+        font-size: 18px; /* Adjusts the font size for better readability */
+        color:goldenrod; /* Sets the link color */
+    }
+    /* Styling for the main headings */
+}
+h1
+{
+    /* Set the text color of <h1> elements to yellow */
+    color: yellow;
+}
+
+/* Styling for paragraph text */
+p
+{
+    /* Set the text color of <p> elements to whitesmoke (a very light gray shade) */
+    color: whitesmoke;
+}
+
+/* Styling for ordered list items */
+ol
+{
+    /* Set the text color of <ol> elements to white */
+    color: white;
+}

@@ -1,0 +1,166 @@
+/* Style settings for the body element */
+body {
+    background-image: url(Images/fringe_division.jpg); 
+    /* Sets a background image for the webpage using the specified file path */
+    
+    background-repeat: no-repeat; 
+    /* Prevents the background image from repeating itself */
+    
+    background-size: 100% 100%; 
+    /* Ensures the background image stretches to cover the entire screen area */
+    
+    min-height: 100vh; 
+    /* Sets the minimum height of the body to cover the full viewport height */
+}
+nav
+{
+    /* Set the text color of the navigation elements to aliceblue (a very light blue shade) */
+    color: aliceblue;
+
+    /* Set the font size of the navigation text to 15 pixels */
+    font-size: 15px;
+
+    /* Transform the text to uppercase letters */
+    text-transform: uppercase;
+
+    /* Make the navigation text bold */
+    font-weight: bold;
+}
+a
+{
+    display: inline-block; /* Ensures the links are treated as block elements within the row */
+    margin: 20px ; /* Adds horizontal and vertical spacing between links */
+    text-decoration: none; /* Removes the underline from links */
+    font-size: 18px; /* Adjusts the font size for better readability */
+    color:blue; /* Sets the link color */
+}
+
+
+/* Style settings for the form element */
+form 
+{
+    background-color: transparent; 
+    /* Makes the form's background transparent */
+    
+    text-align: right; 
+    /* Aligns the text in the form to the right side */
+    
+    font-size: 20px; 
+    /* Sets the font size for the form's text to 20 pixels */
+    
+    font-family: monospace; 
+    /* Specifies a monospace font style for the form's text */
+    
+    font-style: normal; 
+    /* Ensures the font style is normal */
+    
+    font-weight: bold; 
+    /* Makes the form's text bold */
+    
+    color: yellow; 
+    /* Sets the text color to yellow */
+}
+
+/* Style settings for elements with the class "word" */
+.word 
+{
+    position: absolute; 
+    /* Positions the element absolutely within its containing element */
+    
+    font-size: 2rem; 
+    /* Sets the font size of the text to 2 rem (relative to the root font size) */
+    
+    color: white; 
+    /* Sets the text color to white */
+    
+    animation: phaseMove 10s infinite ease-in-out; 
+    /* Applies the "phaseMove" animation; it runs for 10 seconds, loops infinitely, and transitions smoothly */
+}
+
+/* Keyframes for the "phaseMove" animation */
+@keyframes phaseMove 
+{
+    0% {
+        opacity: 0; 
+        /* Starts with zero opacity (completely transparent) */
+        
+        transform: translate(-200px, -200px); 
+        /* Moves the element to (-200px, -200px) relative to its initial position */
+    }
+    25% {
+        opacity: 1; 
+        /* Makes the element fully visible */
+        
+        transform: translate(200px, -100px); 
+        /* Translates the element to a new position (200px, -100px) */
+    }
+    50% {
+        opacity: 0; 
+        /* Makes the element completely transparent again */
+        
+        transform: translate(300px, 300px); 
+        /* Moves the element to (300px, 300px) */
+    }
+    75% {
+        opacity: 1; 
+        /* Makes the element fully visible once more */
+        
+        transform: translate(-100px, 200px); 
+        /* Moves the element to (-100px, 200px) */
+    }
+    100% {
+        opacity: 0; 
+        /* Ends with zero opacity (completely transparent) */
+        
+        transform: translate(-200px, -200px); 
+        /* Returns the element to its initial position */
+    }
+}
+
+/* Style settings for paragraph elements */
+p 
+{
+    background-color: transparent; 
+    /* Makes the paragraph's background transparent */
+    
+    text-align: center; 
+    /* Aligns the paragraph text to the center */
+    
+    font-size: 50px; 
+    /* Sets the font size to 50 pixels */
+    
+    font-family: monospace; 
+    /* Uses a monospace font for the paragraph text */
+    
+    font-style: italic; 
+    /* Makes the text italic */
+    
+    font-weight: bold; 
+    /* Makes the text bold */
+    
+    color: aquamarine; 
+    /* Sets the text color to aquamarine */
+}
+h4
+{
+    background-color: transparent; 
+    /* Makes the paragraph's background transparent */
+    
+    text-align: center; 
+    /* Aligns the paragraph text to the center */
+    
+    font-size: 15px; 
+    /* Sets the font size to 50 pixels */
+    
+    font-family: monospace; 
+    /* Uses a monospace font for the paragraph text */
+    
+    font-style: italic; 
+    /* Makes the text italic */
+    
+    font-weight: bold; 
+    /* Makes the text bold */
+    
+    color: blueviolet; 
+    /* Sets the text color to aquamarine */
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--Written by Joseph Hudson Jr-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This is to link the CSS-->
+    <link rel = "stylesheet" href ="CSC 102 Palindrome 7Mar2025.css">
+    <!--This is the link to the javascript-->
+    <script src = "CSC 102 Palindrome 7Mar2025().js"></script>
+    <title>Magic String</title>
+</head>
+<!-- This begins the Title page -->
+<h1> The Palindrome Paradox </h1> 
+<!-- Displays the main title of the page in a large, bold format -->
+
+<!-- Establishment of the Form and Inputs -->
+<form id="stringInput" onsubmit="return false"> 
+    <!-- Creates a form element with the ID "stringInput"; the form doesn't refresh the page on submit due to 'onsubmit="return false"' -->
+    
+    First Word: 
+    <input type="text" id="firstword"/> 
+    <!-- Provides a text input field for the user to enter the first word, identified by the ID "firstword" -->
+    
+    <br> <br> 
+    <!-- Adds two line breaks for spacing -->
+
+    <input type="submit" onclick="strings();"/> 
+    <!-- Adds a submit button that triggers the "strings()" JavaScript function when clicked -->
+</form>
+
+
+
+<!-- Setting up words for animation -->
+<div class="flash">Palindrome</div> 
+<!-- Creates a division with the class "flash" that contains the word "Palindrome"; intended for animations or styling via CSS -->
+
+<!-- Paragraph for results -->
+<p id="Results">Results</p> 
+<!-- Defines a paragraph with the ID "Results" where the output or results of the form will be displayed -->
+
+    <!-- Navigation section of the webpage -->
+    <nav>
+        <h2>Navigation</h2>
+        <a href = "CSC 102 Jump Off Page 26 Mar 25.html">Home</a>
+        <a href = "CSC 102 Index HTML 21Feb25.html">Index</a>
+        <a href = "CSC 102 Board HTML 21Feb25.html">Boards</a>
+        <a href = "CSC 102 Tables 26 Mar 25.html">Table</a>
+        <a href = "CSC 102 Motion 21 Mar 25.html">Motion</a>
+        <a href = "RPSLS live.html">Game</a>
+        <a href = "CSC 102 Login HTML 3Mar25.html">User Input</a>
+        <a href = "CSC 102 Audio 20 Mar 25.html">Audio</a>
+    </nav>
+</html>
